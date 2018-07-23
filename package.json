@@ -1,5 +1,5 @@
 {
-    "name": "object-generator",
+    "name": "oih-object-generator",
     "version": "0.0.1",
     "description": "Generate a custom object",
     "scripts": {
