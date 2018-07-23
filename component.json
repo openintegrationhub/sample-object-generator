@@ -1,6 +1,6 @@
 {
-  "title": "Object generator",
-  "description": "Create a custom object",
+  "title": "OIH object generator",
+  "description": "Create an OIH object",
   "triggers": {
     "generatePerson": {
       "main": "./lib/triggers/generatePerson.js",
