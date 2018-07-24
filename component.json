@@ -1,5 +1,5 @@
 {
-  "title": "OIH object generator",
+  "title": "OIH Object Generator",
   "description": "Create an OIH object",
   "triggers": {
     "generatePerson": {
