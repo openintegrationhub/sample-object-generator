@@ -4,14 +4,8 @@
   "triggers": {
     "generatePerson": {
       "main": "./lib/triggers/generatePerson.js",
+      "type": "polling",
       "title": "Generate a person object",
-      "metadata": {
-        "out": {}
-      }
-    },
-    "generateOrganization": {
-      "main": "./lib/triggers/generatePerson.js",
-      "title": "Generate an organization object",
       "metadata": {
         "out": {}
       }
