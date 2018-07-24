@@ -9,6 +9,14 @@
       "metadata": {
         "out": {}
       }
+    },
+    "generateOrganization": {
+      "main": "./lib/triggers/generatePerson.js",
+      "type": "polling",
+      "title": "Generate an organization object",
+      "metadata": {
+        "out": {}
+      }
     }
   }
 }
