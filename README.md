@@ -19,20 +19,25 @@ At this point of time the **Object Generator component** supports one trigger fo
 **Object Generator component** on [elastic.io](http://elastic.io) graphical interface:
 
 1. Choose **Object Generator component**:  
-![generator](Assets/generator.png)  
+
+  ![generator](Assets/generator.png)  
 
 2. Select a **trigger**:  
-![generator](Assets/generator.png)
+
+  ![triggers](Assets/triggers.png)
 
 3. Generate a **sample**:  
-![result_1](Assets/result_1.png)  
-![result_2](Assets/result_2.png)
+
+  ![result_1](Assets/result_1.png)  
+  ![result_2](Assets/result_2.png)
 
 4. Choose your **transformer**:  
-![transformer](Assets/transformer.png)
+
+  ![transformer](Assets/transformer.png)
 
 5. Select an **action** in direction **'FROM'** [OIH](https://www.openintegrationhub.org/), because the generated object is a  ___valid___ [Open Integration Hub](https://www.openintegrationhub.org/) object, meaning that the **Transformer** expects an [OIH](https://www.openintegrationhub.org/) object.  
-![result_3](Assets/result_3.png)
+
+  ![result_3](Assets/result_3.png)
 
 
 You can find out more information about our **Data Models** [here](https://github.com/openintegrationhub/Data-and-Domain-Models).
