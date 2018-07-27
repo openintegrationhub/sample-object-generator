@@ -3,8 +3,10 @@
   "description": "Create an OIH object",
   "triggers": {
     "generatePerson": {
-      "main": "./lib/triggers/generatePerson.js",
       "title": "Generate a person object",
+
+       "type": "polling",
+      "main": "./lib/triggers/generatePerson.js",
       "metadata": {
         "out": {}
       }
