@@ -3,7 +3,8 @@
   "description": "Create an OIH object",
   "triggers": {
     "generatePerson": {
-      "title": "Generate a person object",
+      "title": "Generate a person",
+      "description": "Generate a valid OIH person object",
       "type": "polling",
       "main": "./lib/triggers/generatePerson.js",
       "metadata": {
@@ -11,7 +12,8 @@
       }
     },
     "generateOrganization": {
-      "title": "Generate an organization object",
+      "title": "Generate an organization",
+      "description": "Generate a valid OIH organization object",
       "type": "polling",
       "main": "./lib/triggers/generateOrganization.js",
       "metadata": {
