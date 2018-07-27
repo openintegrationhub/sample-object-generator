@@ -7,7 +7,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git@github.com:elasticio/petstore-component-nodejs.git"
+        "url": "git@github.com:WiceDe/oih-object-generator.git"
     },
     "author": "Wice GmbH",
     "license": "Apache 2.0",

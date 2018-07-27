@@ -14,7 +14,7 @@ This component requires no authentication.
 
 ## How it works
 
-At this point of time the **Object Generator component** supports one trigger for generating a ___valid___ [`person`](https://github.com/openintegrationhub/Data-and-Domain-Models/blob/master/src/main/schema/addresses/personV2.json) object.  
+At this point of time the **Object Generator component** supports two triggers for generating a ___valid___ [`person`](https://github.com/openintegrationhub/Data-and-Domain-Models/blob/master/src/main/schema/addresses/personV2.json) and [`organization`](https://github.com/openintegrationhub/Data-and-Domain-Models/blob/master/src/main/schema/addresses/organizationV2.json) object.  
 
 **Object Generator component** on [elastic.io](http://elastic.io) graphical interface:
 
@@ -40,7 +40,7 @@ At this point of time the **Object Generator component** supports one trigger fo
 
 ***
 
-You can find out more information about our **Data Models** [here](https://github.com/openintegrationhub/Data-and-Domain-Models).
+You can find out more information about our **Data and Domain Models** [here](https://github.com/openintegrationhub/Data-and-Domain-Models).
 
 ## License
 
