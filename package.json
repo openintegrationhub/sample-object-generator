@@ -1,25 +1,32 @@
 {
-    "name": "oih-object-generator",
-    "version": "0.0.1",
-    "description": "Generate a custom object",
-    "scripts": {
-        "test": "exit 0"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:WiceDe/oih-object-generator.git"
-    },
-    "author": "Wice GmbH",
-    "license": "Apache 2.0",
-    "engines": {
-        "node": "8.6.0",
-        "npm": ">=5.4"
-    },
-    "dependencies": {
-        "elasticio-sailor-nodejs": "2.2.1",
-        "elasticio-node": "0.0.9",
-        "co": "4.6.0",
-        "request": "2.87.0",
-        "request-promise": "4.1.1"
-    }
+  "name": "oih-object-generator",
+  "version": "0.0.3",
+  "description": "Generate a custom object",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "author": "Wice GmbH",
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "OIH",
+    "object generator"
+  ],
+  "engines": {
+    "node": "8.6.0",
+    "npm": ">=5.4"
+  },
+  "dependencies": {
+    "elasticio-sailor-nodejs": "2.2.1",
+    "elasticio-node": "0.0.9",
+    "co": "4.6.0",
+    "request": "2.87.0",
+    "request-promise": "4.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:WiceDe/oih-object-generator.git"
+  },
+  "license": "Apache 2.0",
 }

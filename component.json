@@ -19,6 +19,35 @@
       "metadata": {
         "out": {}
       }
-    }
+    },
+    "generateTask": {
+      "title": "Generate a person",
+      "description": "Generate a valid OIH task object",
+      "type": "polling",
+      "main": "./lib/triggers/generateTask.js",
+      "metadata": {
+        "out": {}
+      }
+    },
+    "generateEmail": {
+      "title": "Generate a person",
+      "description": "Generate a valid OIH email object",
+      "type": "polling",
+      "main": "./lib/triggers/generateEmail.js",
+      "metadata": {
+        "out": {}
+      }
+    },
+    "generateCalendarEvent": {
+      "title": "Generate a person",
+      "description": "Generate a valid OIH calendar event object",
+      "type": "polling",
+      "main": "./lib/triggers/generateCalendarEvent.js",
+      "metadata": {
+        "out": {}
+      }
+    },
+    "language": "nodejs",
+    "sailor_version": "2.2.1"
   }
 }
