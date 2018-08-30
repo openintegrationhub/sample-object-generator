@@ -21,7 +21,7 @@
       }
     },
     "generateTask": {
-      "title": "Generate a person",
+      "title": "Generate a task",
       "description": "Generate a valid OIH task object",
       "type": "polling",
       "main": "./lib/triggers/generateTask.js",
@@ -30,7 +30,7 @@
       }
     },
     "generateEmail": {
-      "title": "Generate a person",
+      "title": "Generate an email",
       "description": "Generate a valid OIH email object",
       "type": "polling",
       "main": "./lib/triggers/generateEmail.js",
@@ -39,7 +39,7 @@
       }
     },
     "generateCalendarEvent": {
-      "title": "Generate a person",
+      "title": "Generate a calendar event",
       "description": "Generate a valid OIH calendar event object",
       "type": "polling",
       "main": "./lib/triggers/generateCalendarEvent.js",
