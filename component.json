@@ -46,8 +46,6 @@
       "metadata": {
         "out": {}
       }
-    },
-    "language": "nodejs",
-    "sailor_version": "2.2.1"
+    }
   }
 }
