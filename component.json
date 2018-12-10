@@ -55,6 +55,24 @@
       "metadata": {
         "out": {}
       }
-    }
+    },
+    "generateDocument": {
+      "title": "Generate a document",
+      "description": "Generate a valid OIH document object",
+      "type": "polling",
+      "main": "./lib/triggers/generateDocument.js",
+      "metadata": {
+        "out": {}
+      }
+    },
+    "generateDocumentFolder": {
+      "title": "Generate a document folder",
+      "description": "Generate a valid OIH document folder object",
+      "type": "polling",
+      "main": "./lib/triggers/generateDocumentFolder.js",
+      "metadata": {
+        "out": {}
+      }
+    },
   }
 }
