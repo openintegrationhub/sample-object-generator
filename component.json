@@ -46,6 +46,15 @@
       "metadata": {
         "out": {}
       }
+    },
+    "generateDocumentRelation": {
+      "title": "Generate a document relation",
+      "description": "Generate a valid OIH document relation object",
+      "type": "polling",
+      "main": "./lib/triggers/generateDocumentRelation.js",
+      "metadata": {
+        "out": {}
+      }
     }
   }
 }
