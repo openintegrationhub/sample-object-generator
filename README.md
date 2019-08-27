@@ -1,7 +1,7 @@
 # oih-object-generator
-> [Open Integration Hub](https://www.openintegrationhub.org/) Object Generator component for [elastic.io platform](http://www.elastic.io "elastic.io platform")
+> [Open Integration Hub](https://www.openintegrationhub.org/) Object Generator component
 
-The idea behind  **Object Generator component** is just to generate a ___valid___ [Open Integration Hub](https://www.openintegrationhub.org/) object.
+The idea behind  **Object Generator component** is just to generate a ___valid___     [Open Integration Hub](https://www.openintegrationhub.org/) object.
 The component generates an object which should be verified against a certain transformer.
 
 
@@ -20,23 +20,23 @@ At this point of time the **Object Generator component** supports two triggers f
 
 1. Choose **Open Integration Hub Object Generator component**:  
 
-  ![generator](Assets/generator.png)  
+  ![generator](assets/generator.png)  
 
 2. Select a **trigger**:  
 
-  ![triggers](Assets/triggers.png)
+  ![triggers](assets/triggers.png)
 
 3. Generate a **sample**:  
 
-  ![result_1](Assets/result_1.png)  
+  ![result_1](assets/result_1.png)  
 
 4. Choose your **transformer**:  
 
-  ![transformer](Assets/transformer.png)
+  ![transformer](assets/transformer.png)
 
 5. Select an **action** in direction **'FROM'** [OIH](https://www.openintegrationhub.org/), because the generated object is a  ___valid___ [Open Integration Hub](https://www.openintegrationhub.org/) object, meaning that the **Transformer** expects an [OIH](https://www.openintegrationhub.org/) object. After retrieving a sample from the **Transformer** you should see a similar result.
 
-  ![result_3](Assets/result_3.png)
+  ![result_3](assets/result_3.png)
 
 ***
 
