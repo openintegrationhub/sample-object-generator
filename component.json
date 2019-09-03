@@ -12,7 +12,7 @@
       }
     },
     "generateSnazzyPerson": {
-      "title": "Generate a person",
+      "title": "Generate a Snazzy Contacts person",
       "description": "Generate a  Snazzy Contacts person object",
       "type": "polling",
       "main": "./lib/triggers/generateSnazzyPerson.js",
