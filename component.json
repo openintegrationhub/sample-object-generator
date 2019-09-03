@@ -11,6 +11,15 @@
         "out": {}
       }
     },
+    "generateSnazzyPerson": {
+      "title": "Generate a person",
+      "description": "Generate a  Snazzy Contacts person object",
+      "type": "polling",
+      "main": "./lib/triggers/generateSnazzyPerson.js",
+      "metadata": {
+        "out": {}
+      }
+    },
     "generateOrganization": {
       "title": "Generate an organization",
       "description": "Generate a valid OIH organization object",
