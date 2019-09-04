@@ -13,9 +13,18 @@
     },
     "generateSnazzyPerson": {
       "title": "Generate a Snazzy Contacts person",
-      "description": "Generate a  Snazzy Contacts person object",
+      "description": "Generate a Snazzy Contacts person object",
       "type": "polling",
       "main": "./lib/triggers/generateSnazzyPerson.js",
+      "metadata": {
+        "out": {}
+      }
+    },
+    "generateSnazzyOrganization": {
+      "title": "Generate a Snazzy Contacts organization",
+      "description": "Generate a Snazzy Contacts organization object",
+      "type": "polling",
+      "main": "./lib/triggers/generateSnazzyOrganization.js",
       "metadata": {
         "out": {}
       }
