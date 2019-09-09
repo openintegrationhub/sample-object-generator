@@ -11,13 +11,13 @@ describe('Triggers - generate valid OIH objects', () => {
   it('should generate a Calendar Event', () => {
     const event = calendarEventTrigger();
     expect(event.body.meta.recordUid).toEqual('');
-    expect(event.body.data.collaborationElement.header.subject).toEqual('RE: Your Question');
-    expect(event.body.data.collaborationElement.content.format).toEqual('HTML');
+    expect(event.body.data.collaborationElement.subject).toEqual('RE: Your Question');
+    expect(event.body.data.collaborationElement.format).toEqual('HTML');
     expect(event.body.data.collaborationElement).toEqual(expect.objectContaining({
-      header: expect.any(Object),
-      date: expect.any(Object),
-      properties: expect.any(Object),
-      content: expect.any(Object),
+      from: expect.any(String),
+      to: expect.any(String),
+      cc: expect.any(String),
+      authentication: expect.any(String),
       attachments: expect.any(Array),
     }));
     expect(event.body.data.contacts).toHaveLength(1);
