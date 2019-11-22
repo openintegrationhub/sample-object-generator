@@ -10,7 +10,6 @@ const { taskTrigger } = require('../lib/triggers/generateTask.js');
 describe('Triggers - generate valid OIH objects', () => {
   it('should generate a Calendar Event', () => {
     const event = calendarEventTrigger();
-    expect(event.body.meta.recordUid).toEqual('');
     expect(event.body.data.collaborationElement.subject).toEqual('RE: Your Question');
     expect(event.body.data.collaborationElement.format).toEqual('HTML');
     expect(event.body.data.collaborationElement).toEqual(expect.objectContaining({
@@ -30,7 +29,6 @@ describe('Triggers - generate valid OIH objects', () => {
 
   it('should generate a Document', () => {
     const document = documentTrigger();
-    expect(document.body.meta.recordUid).toEqual('');
     expect(document.body.data).toEqual(expect.objectContaining({
       name: expect.any(String),
       description: expect.any(String),
@@ -60,7 +58,6 @@ describe('Triggers - generate valid OIH objects', () => {
 
   it('should generate a Document Relation', () => {
     const documentRelation = documentRelationTrigger();
-    expect(documentRelation.body.meta.recordUid).toEqual('');
     expect(documentRelation.body.data.name).toEqual('parent');
     expect(documentRelation.body.data.type).toEqual('reference');
     expect(documentRelation.body.data.targetUid).toEqual('123');
@@ -68,7 +65,6 @@ describe('Triggers - generate valid OIH objects', () => {
 
   it('should generate an Email', () => {
     const email = emailTrigger();
-    expect(email.body.meta.recordUid).toEqual('');
     expect(email.body.data.collaborationElement.header.from).toEqual('john.doe@email.com');
     expect(email.body.data.collaborationElement.content.content).toEqual('Dear John, please find attached');
     expect(email.body.data.collaborationElement).toEqual(expect.objectContaining({
@@ -84,7 +80,6 @@ describe('Triggers - generate valid OIH objects', () => {
 
   it('should generate an Organization', () => {
     const organization = organizationTrigger();
-    expect(organization.body.meta.recordUid).toEqual('');
     expect(organization.body.data.name).toEqual('Example Company');
     expect(organization.body.data.logo).toEqual('https://www.logo.com/png');
     expect(organization.body.data).toEqual(expect.objectContaining({
@@ -115,7 +110,6 @@ describe('Triggers - generate valid OIH objects', () => {
 
   it('should generate a Person', () => {
     const person = personTrigger();
-    expect(person.body.meta.recordUid).toEqual('');
     expect(person.body.data.firstName).toEqual('John');
     expect(person.body.data.jobTitle).toEqual('Sales manager');
     expect(person.body.data).toEqual(expect.objectContaining({
@@ -156,7 +150,6 @@ describe('Triggers - generate valid OIH objects', () => {
 
   it('should generate a Task', () => {
     const task = taskTrigger();
-    expect(task.body.meta.recordUid).toEqual('');
     expect(task.body.collaborationElement.header.from).toEqual('john.doe@email.com');
     expect(task.body.collaborationElement.content.content).toEqual('Dear John, please find attached');
     expect(task.body.collaborationElement).toEqual(expect.objectContaining({
